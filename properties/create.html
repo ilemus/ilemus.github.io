@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="../favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		
+		<link href="../_app/immutable/assets/NavBar.3e053e9e.css" rel="stylesheet">
+		<link rel="modulepreload" href="../_app/immutable/entry/start.58456417.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/scheduler.bc760b9c.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/singletons.c6fdf1fb.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/app.22bdb4d9.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index.f6181d0f.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/0.dd85b136.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/5.58ade180.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/NavBar.7565e14d.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">   <nav class="flex flex-row flex-grow py-4 px-8 bg-[#FFFBFE]"> <div class="flex items-center flex-shrink-0 mr-8" data-svelte-h="svelte-1hyvxxa"><a href="/" class="font-bold text-xl lowercase text-black hover:text-blue-600">Local</a></div>  <div class="inline-block justify-center items-center" data-svelte-h="svelte-oe4oqr"><ul class="flex items-center gap-4"><li><a href="/property-managers" class="inline-block font-light uppercase text-center text-slate-700 hover:text-blue-500">Property Managers</a></li> <li><a href="/properties/create" class="inline-block font-light uppercase text-center text-slate-700 hover:text-blue-500">List Property</a></li> <li><a href="/contact" class="inline-block font-light uppercase text-center text-slate-700 hover:text-blue-500">Contact Us</a></li></ul></div>  <div class="inline-block ml-auto"><a href="/login" class="inline-block px-4 py-1.5 rounded-md lowercase font-medium text-white bg-green-600 hover:bg-green-500" data-svelte-h="svelte-u6rne7">Login</a></div></nav>   <div class="w-full bg-[#FFFBFE] flex justify-center"><div class="min-h-screen w-2/3 grid grid-cols-1 divide-y divide-transparent"><div class="flex flex-col justify-end items-center" data-svelte-h="svelte-1idp9of"><h1 class="my-4 text-4xl font-semibold text-slate-700">Property Address</h1> <input type="text" class="align-bottom p-4 rounded-md shadow-md h-12 w-2/3"></div> <div></div>   <div class="flex w-full items-center"> <button class="justify-self-end ml-auto underline px-4 py-2 text-green-500 font-medium text-lg" data-svelte-h="svelte-rxrrgv">next &gt;</button></div></div></div> 
+			
+			<script>
+				{
+					__sveltekit_4o5ohg = {
+						base: new URL("..", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("../_app/immutable/entry/start.58456417.js"),
+						import("../_app/immutable/entry/app.22bdb4d9.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 5],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
