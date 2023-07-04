@@ -1,2 +1,2 @@
 # ilemus.github.io
-React App
+SvelteKit App
